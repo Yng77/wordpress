@@ -1,0 +1,305 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    margin-top: 53px;
+}
+
+h2.title {
+    margin-top: 21px;
+}
+
+.title {
+    color: #F9BF3B;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 41px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.simple .title-big {
+    margin-top: 21px;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 80px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;   
+}
+
+.container {
+    position: relative;
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.promo {
+    min-height: 800px;
+    background: url('../img/bg/main_bg.jpg') center center/cover no-repeat;
+    padding: 38px 0 62px 0;
+}
+.promo .logo .logo-img {
+    display: block;
+    margin: 0 auto;
+}
+.promo .logo .logo-text {
+    margin-top: 10px;
+    color: #fff;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    text-transform: uppercase;
+    text-align: center;
+}
+.promo .promo-text {
+    margin-top: 23px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 21px;
+    line-height: 28px;
+    text-align: center;
+    color: #FFFFFF;  
+}
+.promo .promo-text span {
+    color: #F9BF3B;
+    font-weight: 700;
+    text-transform: uppercase; 
+}
+.promo .promo-btn {
+    display: block;
+    margin: 0 auto;
+    margin-top: 72px;
+    cursor: pointer; 
+    width: 313px;
+    height: 72px;
+    background: linear-gradient(0deg, #2798B9 0%, #3AB6DA 100%);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4);
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-shadow: -1px -1px 0px rgba(0, 0, 0, 0.22);    
+}
+
+.more {
+    margin-top: 70px;
+}
+.more .more-text {
+    font-weight: 100;
+    font-size: 15px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #FFFFFF;
+}
+.more .more-img {
+    display: block;
+    margin: 0 auto;
+    margin-top: 5px;
+}
+
+.waiting {
+    min-height: 607px;
+    background: #EFEFEF;
+    padding: 88px 0 75px 0;
+}
+.waiting .waiting-header, .finish .finish-header {
+    color: #252525;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.waiting .waiting-divider, .finish .finish-divider {
+    margin: 0 auto;
+    margin-top: 18px;
+    width: 220px;
+    height: 7px;
+    background: #F9BF3B;
+}
+.waiting .waiting-subtitle {
+    margin-top: 18px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+    text-align: center;
+    color: #4A4A4A;
+}
+.waiting .waiting-wrapper {
+    margin-top: 45px;
+    display: flex;
+    justify-content: space-between;
+}
+.waiting .waiting-wrapper .waiting-item {
+    width: 342px;
+}
+.waiting .waiting-wrapper .waiting-item .waiting-img {
+    width: 100%;
+}
+.waiting .waiting-wrapper .waiting-item .waiting-descr {
+    text-align: center;
+    margin-top: 26px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 21px;
+    color: #4A4A4A;
+}
+
+.optimisation {
+    min-height: 550px;
+    padding: 108px 0 74px 0;
+}
+.optimisation .optimisation-header {
+    margin-left: 391px;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 28px;
+    text-transform: uppercase;
+    color: #299CBD;
+}
+.optimisation .optimisation-text {
+    margin: 25px 0 0 391px;
+    width: 750px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 27px;
+    color: #4A4A4A;
+}
+.optimisation .optimisation-text span {
+    font-style: normal;
+    font-weight: 700;
+}
+.optimisation .optmisation-img {
+    position: absolute;
+    top: -44px;
+    left: -240px;
+    z-index: -1;
+}
+
+.finish {
+    min-height: 447px;
+    padding: 86px 0 68px 0;
+    background: url('../img/bg/second_bg.png') no-repeat center center/cover;
+}
+.finish .finish-header {
+    color: #EFEFEF;     
+}
+.finish .finish-wrapper {
+    margin-top: 39px;
+    display: flex;
+    justify-content: space-between;
+}
+.finish .finish-wrapper .finish-item {
+    width: 224px;
+}
+.finish .finish-wrapper .finish-item .finish-round {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    width: 118px;
+    height: 118px;
+    background: #B4E2FF;
+    border-radius: 50%;
+}
+.finish .finish-wrapper .finish-item .finish-text {
+    margin-top: 24px;
+    text-align: center;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 20px;
+    text-align: center;
+    color: #EFEFEF;
+}
+
+.gift {
+    min-height: 631px;
+    background: #EFEFEF;
+    padding: 85px 0 88px 0;
+}
+.gift .gift-img {
+    display: block;
+    margin: 0 auto;
+}
+.gift .gift-text {
+    margin-top: 45px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 43px;
+    text-align: center;
+}
+.gift .gift-btn {
+    display: block;
+    margin: 0 auto;
+    margin-top: 51px;
+    width: 313px;
+    height: 72px;
+    background: linear-gradient(0deg, #2798B9 0%, #3AB6DA 100%);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4);
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.first-webinar {
+    min-height: 512px;
+    padding: 90px 0 52px 0;
+}
+.first-webinar .first-webinar-img {
+    display: block;
+    margin: 0 auto;
+}
+.first-webinar .first-webinar-header {
+    margin-top: 36px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    text-align: center;
+    color: #252525;
+}
+.first-webinar .first-webinar-time {
+    margin-top: 30px;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 36px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #299CBD;
+}
+.first-webinar .first-webinar-text {
+    margin-top: 24px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+    text-align: center;
+    color: #4A4A4A;
+}
+
+.footer {
+    min-height: 169px;
+    padding: 59px 0 71px 0;
+    background: #1A1A1A;
+}
+.footer .footer-link, a{
+    width: 407px;
+    margin: auto;
+    text-align: center;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    color: #888888;  
+}
+
